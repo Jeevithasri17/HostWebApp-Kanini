@@ -1,0 +1,120 @@
+﻿
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+  width: 50%;
+  height:50%;
+}
+
+.price {
+  color: grey;
+  font-size: 22px;
+}
+
+.card button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card button:hover {
+  opacity: 0.7;
+}
+.container {
+  display: flex;
+}
+</style>
+</head>
+<body>
+
+<h2 style="text-align:center">Product Card</h2>
+
+<div class="container">
+<div class="card">
+  <img src="https://m.media-amazon.com/images/I/51z376z5iBL._SL1200_.jpg" style="width:100%">
+  <h1>Headset</h1>
+  <p class="price">$20</p>
+  <p>Some text about the headset.
+    Some text about the headset.
+    Some text about the headset.
+ </p>
+  <p><button>Add to Cart</button></p>
+</div>
+
+<div class="card">
+    <img src="data:image/jpeg;base64,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"  style="width:100%">
+    <h1>Headset</h1>
+    <p class="price">$25</p>
+    <p>Some text about the headset.
+    Some text about the headset.
+    Some text about the headset.</p>
+    <p><button>Add to Cart</button></p>
+  </div>
+
+  <div class="card">
+    <img src="https://rukminim1.flixcart.com/image/416/416/jl9rf680/headphone/h/z/m/dilurban-dual-l-r-wireless-bluetooth-earphone-original-imaf8fr8dptzw7zy.jpeg?q=70"  style="width:100%">
+    <h1>Bluetooth Headset</h1>
+    <p class="price">$30</p>
+    <p>Some text about the headset.
+    Some text about the headset.
+    </p>
+    <p><button>Add to Cart</button></p>
+  </div>
+
+</div>
+<br><br>
+
+<div class="container">
+    <div class="card">
+      <img src="https://m.media-amazon.com/images/I/51A1vwtYr+L._SL1200_.jpg"  style="width:100%">
+      <h1>Mouse</h1>
+      <p class="price">$35</p>
+      <p>Some text about the mouse.
+    Some text about the mouse.
+    Some text about the mouse.</p>
+      <p><button>Add to Cart</button></p>
+    </div>
+    
+    <div class="card">
+        <img src="https://m.media-amazon.com/images/I/81SdJG3OUjL._SL1500_.jpg"  style="width:100%">
+        <h1>Laptop</h1>
+        <p class="price">$40</p>
+        <p>Some text about the laptop.
+    Some text about the laptop.
+    Some text about the laptop.
+    Some text about the laptop.
+    Some text about the laptop.
+    Some text about the laptop.
+
+    </p>
+        <p><button>Add to Cart</button></p>
+      </div>
+    
+      <div class="card">
+        <img src="https://images.squarespace-cdn.com/content/v1/5b76d29285ede16b65358b00/1621011953414-6U6FNVM50J0TZV27AVH4/Framework_Modular_Laptop.png?format=1000w"  style="width:100%">
+        <h1>Laptop</h1>
+        <p class="price">$50</p>
+        <p>Some text about the laptop.
+            Some text about the laptop.
+            Some text about the laptop.</p>
+       <p><button>Add to Cart</button></p>
+      </div>
+    
+    </div>
+
+</body>
+</html>

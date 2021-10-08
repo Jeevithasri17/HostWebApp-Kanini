@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <font face="monospace" color="blue">
+        <ul type="square">
+            <li><a href="home.html" target="frame"><button>Home</button></a></li>
+            <li><a href="service.html" target="frame"><button>Service</button></a></li>
+            <li><a href="product.html" target="frame"><button>Product</button></a></li>
+            <li><a href="registration form.html" target="frame"><button>Register</button></a></li>
+            <li><a href="login.html" target="frame"><button>Login</button></a></li>
+        </ul>
+
+    </font>
+    <iframe src="Home.html" name="frame" height="300px" width="100%"></iframe>
+
+</body>
+</html>
